@@ -2,30 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Faugei.com</title>
 </head>
 
-<body class="md:w-6xl md:m-auto">
-    <!-- Nav ber  -->
-    <nav class=" mx-[10px] flex items-center justify-between ">
+<body class=" md:w-6xl md:m-auto">
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between px-4 py-4">
         <div>
-            <img src="assets/logo.png" alt="">
+            <img src="assets/logo.png" alt="Logo" class="w-24 md:w-32" />
         </div>
-        <div class="flex">
-            <div class="invisible md:visible">
-                <a href="">Home</a>
-                <a href="">Shop</a>
-                <a href="">About us</a>
+        <div class="flex items-center gap-4">
+
+            <div class="hidden md:flex gap-6 text-sm font-medium">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About us</a>
             </div>
-            <div class="flex items-center gap-1">
-                <img class="w-8" src="assets/shopping-card.png" alt="">
-                <a href="">Cart ($56)</a>
+            <div class="flex items-center gap-2">
+                <img class="w-6 md:w-8" src="assets/shopping-card.png" alt="Cart" />
+                <a href="#" class="text-sm md:text-base font-medium">Cart ($56)</a>
             </div>
         </div>
     </nav>
+    <!-- Banner -->
     <section class="flex flex-col-reverse md:flex-row items-end ">
         <div class="mx-[10px] mt-2">
             <h1 class=" text-2xl font-bold md:text-6xl ">ALWAYS <span class="text-[#E95A08]">FRESH<br>FLOWERS</span>
@@ -38,101 +40,103 @@
             <img class="md:w-5xl" src="assets/hero-flower.png" alt="">
         </div>
     </section>
-    <section class="mt-[64px]">
-
-        <!-- card section text  -->
-        <div>
-            <h1 class=" text-center text-2xl font-bold md:text-5xl "><span class="text-[#E95A08]">Our </span>Plants</h1>
-            <p class=" m-auto text-center opacity-50 md:w-2xl">Indulge your senses with the beauty and fragrance of our
-                fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+<!-- Plants Section (card) -->
+    <section class="mt-16 px-4">
+        <div class="text-center">
+            <h1 class="text-3xl md:text-5xl font-bold">
+                <span class="text-[#E95A08]">Our</span> Plants
+            </h1>
+            <p class="opacity-60 mt-2 md:w-[600px] mx-auto">
+                Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                From classic roses to exotic blooms, we offer a wide variety of fresh.
+            </p>
         </div>
 
-        <!-- shopping-card-section-->
-        <section class="mx-10 mt-10 gap-5 grid grid-cols-2 md:mx-0 md:grid-cols-4 ">
-            <div class=" w-[171px] md:w-[270px]  text-center font-bold  ">
-                <img class="" src="assets/sample-flower-image.png" alt="">
-                <div class="my-[10px]">
-                    <p>Lily Blossom</p>
-                    <p>20 USD</p>
-                </div>
-                <button class="bg-[#E95A08] text-white w-full  py-2 ">ADD TO CART</button>
-            </div>
-            <div class=" w-[171px] md:w-[270px]  text-center font-bold  ">
-                <img class="" src="assets/sample-flower-image.png" alt="">
-                <div class="my-[10px]">
-                    <p>Lily Blossom</p>
-                    <p>20 USD</p>
-                </div>
-                <button class="bg-[#E95A08] text-white w-full  py-2 ">ADD TO CART</button>
-            </div>
-            <div class=" w-[171px] md:w-[270px]  text-center font-bold  ">
-                <img class="" src="assets/sample-flower-image.png" alt="">
-                <div class="my-[10px]">
-                    <p>Lily Blossom</p>
-                    <p>20 USD</p>
-                </div>
-                <button class="bg-[#E95A08] text-white w-full  py-2 ">ADD TO CART</button>
-            </div>
-            <div class=" w-[171px] md:w-[270px]  text-center font-bold  ">
-                <img class="" src="assets/sample-flower-image.png" alt="">
-                <div class="my-[10px]">
-                    <p>Lily Blossom</p>
-                    <p>20 USD</p>
-                </div>
-                <button class="bg-[#E95A08] text-white w-full  py-2 ">ADD TO CART</button>
-            </div>
-            <div class=" w-[171px] md:w-[270px]  text-center font-bold  ">
-                <img class="" src="assets/sample-flower-image.png" alt="">
-                <div class="my-[10px]">
-                    <p>Lily Blossom</p>
-                    <p>20 USD</p>
-                </div>
-                <button class="bg-[#E95A08] text-white w-full  py-2 ">ADD TO CART</button>
-            </div>
-            <div class=" w-[171px] md:w-[270px]  text-center font-bold  ">
-                <img class="" src="assets/sample-flower-image.png" alt="">
-                <div class="my-[10px]">
-                    <p>Lily Blossom</p>
-                    <p>20 USD</p>
-                </div>
-                <button class="bg-[#E95A08] text-white w-full  py-2 ">ADD TO CART</button>
-            </div>
-            <div class=" w-[171px] md:w-[270px]  text-center font-bold  ">
-                <img class="" src="assets/sample-flower-image.png" alt="">
-                <div class="my-[10px]">
-                    <p>Lily Blossom</p>
-                    <p>20 USD</p>
-                </div>
-                <button class="bg-[#E95A08] text-white w-full  py-2 ">ADD TO CART</button>
-            </div>
-            <div class=" w-[171px] md:w-[270px]  text-center font-bold  ">
-                <img class="" src="assets/sample-flower-image.png" alt="">
-                <div class="my-[10px]">
-                    <p>Lily Blossom</p>
-                    <p>20 USD</p>
-                </div>
-                <button class="bg-[#E95A08] text-white w-full  py-2 ">ADD TO CART</button>
-            </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3  gap-6 mt-10">
 
-            <!-- Trusted Seller section-->
-        </section>
-        <section class="mx-[10px] md:flex justify-between items-center mt-10 md:mt-50">
-            <div>
-                <img src="assets/flower-store.png" alt="">
-
+            <div class="text-center  bg-white ">
+                <img src="assets/sample-flower-image.png" alt="" class="m-auto" />
+                <div class="my-2">
+                    <p>Lily Blossom</p>
+                    <p class="font-bold">20 USD</p>
+                </div>
+                <button class="bg-[#E95A08] text-white w-full py-2 rounded "> ADD TO CART</button>
             </div>
-            <div class=" w-[540px]">
-                <h1 class=" font-bold text-[25px]  md:text-[50px] mt-3">Flower & Plants <br>Lover</h1>
-                <ul class="list-disc w-[500px]  m-auto ">
-                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh</li>
-                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh</li>
-                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh</li>
-
-                </ul>
+            <div class="text-center  bg-white ">
+                <img src="assets/sample-flower-image.png" alt="" class="m-auto" />
+                <div class="my-2">
+                    <p>Lily Blossom</p>
+                    <p class="font-bold">20 USD</p>
+                </div>
+                <button class="bg-[#E95A08] text-white w-full py-2 rounded "> ADD TO CART</button>
             </div>
+            <div class="text-center  bg-white ">
+                <img src="assets/sample-flower-image.png" alt="" class="m-auto" />
+                <div class="my-2">
+                    <p>Lily Blossom</p>
+                    <p class="font-bold">20 USD</p>
+                </div>
+                <button class="bg-[#E95A08] text-white w-full py-2 rounded "> ADD TO CART</button>
+            </div>
+            <div class="text-center  bg-white ">
+                <img src="assets/sample-flower-image.png" alt="" class="m-auto" />
+                <div class="my-2">
+                    <p>Lily Blossom</p>
+                    <p class="font-bold">20 USD</p>
+                </div>
+                <button class="bg-[#E95A08] text-white w-full py-2 rounded "> ADD TO CART</button>
+            </div>
+            <div class="text-center  bg-white ">
+                <img src="assets/sample-flower-image.png" alt="" class="m-auto" />
+                <div class="my-2">
+                    <p>Lily Blossom</p>
+                    <p class="font-bold">20 USD</p>
+                </div>
+                <button class="bg-[#E95A08] text-white w-full py-2 rounded "> ADD TO CART</button>
+            </div>
+            <div class="text-center  bg-white ">
+                <img src="assets/sample-flower-image.png" alt="" class="m-auto" />
+                <div class="my-2">
+                    <p>Lily Blossom</p>
+                    <p class="font-bold">20 USD</p>
+                </div>
+                <button class="bg-[#E95A08] text-white w-full py-2 rounded "> ADD TO CART</button>
+            </div>
+            <div class="text-center  bg-white ">
+                <img src="assets/sample-flower-image.png" alt="" class="m-auto" />
+                <div class="my-2">
+                    <p>Lily Blossom</p>
+                    <p class="font-bold">20 USD</p>
+                </div>
+                <button class="bg-[#E95A08] text-white w-full py-2 rounded "> ADD TO CART</button>
+            </div>
+            <div class="text-center  bg-white ">
+                <img src="assets/sample-flower-image.png" alt="" class="m-auto" />
+                <div class="my-2">
+                    <p>Lily Blossom</p>
+                    <p class="font-bold">20 USD</p>
+                </div>
+                <button class="bg-[#E95A08] text-white w-full py-2 rounded "> ADD TO CART</button>
+            </div>
+           
+          
+        </div>
+    </section>
 
-
-        </section>
+    <!-- Plants Lover Section-->
+    <section class="mt-20 px-4 md:px-10 md:flex justify-between items-center gap-6">
+        <div class="md:w-1/2">
+            <img src="assets/flower-store.png" alt="Flower Store" class="w-full" />
+        </div>
+        <div class="md:w-1/2 mt-6 md:mt-0">
+            <h1 class="font-bold text-3xl md:text-5xl mb-4">Flower & Plants <br />Lover</h1>
+            <ul class="list-disc pl-5 text-sm opacity-50 ">
+                <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+            </ul>
+        </div>
+    </section>
 </body>
 
 </html>
