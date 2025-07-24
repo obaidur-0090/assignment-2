@@ -8,9 +8,9 @@
     <title>Faugei.com</title>
 </head>
 
-<body class=" md:w-6xl md:m-auto">
+<body class=" ">
     <!-- Navbar -->
-    <nav class="flex items-center justify-between px-4 py-4">
+    <nav class="flex items-center justify-between px-4 py-4 md:w-6xl md:m-auto">
         <div>
             <img src="assets/logo.png" alt="Logo" class="w-24 md:w-32" />
         </div>
@@ -28,7 +28,7 @@
         </div>
     </nav>
     <!-- Banner -->
-    <section class="flex flex-col-reverse md:flex-row items-end ">
+    <section class="flex flex-col-reverse md:flex-row items-end md:w-6xl md:m-auto">
         <div class="mx-[10px] mt-2">
             <h1 class=" text-2xl font-bold md:text-6xl ">ALWAYS <span class="text-[#E95A08]">FRESH<br>FLOWERS</span>
             </h1>
@@ -41,7 +41,7 @@
         </div>
     </section>
     <!-- Plants Section (card) -->
-    <section class="mt-16 px-4">
+    <section class="mt-16 px-4 md:w-6xl md:m-auto">
         <div class="text-center">
             <h1 class="text-3xl md:text-5xl font-bold">
                 <span class="text-[#E95A08]">Our</span> Plants
@@ -132,7 +132,7 @@
     </section>
 
     <!-- Plants Lover Section-->
-    <section >
+    <section class="md:w-6xl md:m-auto">
         <div class="mt-40 px-4 md:px-0 gap-10 md:flex md:justify-between items-center  ">
             <div class="md:w-1/2">
                 <img src="assets/flower-store.png" alt="Flower Store" class="w-full" />
@@ -164,7 +164,7 @@
     </section>
 
     <!-- Latest Deal Section -->
-    <section class="px-4 mt-30 text-center items-center">
+    <section class="px-4 mt-30 text-center items-center md:w-6xl md:m-auto">
         <div>
             <h1></h1>
             <h1 class=" text-2xl font-bold md:text-6xl ">Latest <span class="text-[#E95A08]"> Deals</span>
@@ -175,37 +175,51 @@
         </div>
 
         <!-- Latest Deal Section img grid -->
-        <div class="grid md:grid-cols-3 gap-4 p-4 md:p-0">
+        <div class="mt-11 grid md:grid-cols-3 gap-4 p-4 md:p-0">
             <div class="md:row-span-2 relative  md:w-full">
                 <img src="assets/deal-bloom.png" alt="Deal bloom" class="w-full rounded-xl">
 
-                <div class="absolute inset-0 flex flex-col items-center justify-center  text-white  font-bold">
+                <div class="absolute inset-0 flex flex-col  justify-center  text-white  font-bold">
                     <p>60% Off | Bloom Plant</p>
-                    <button> Shop Now</button>
+                    <button class="md:text-3xl underline"> Shop Now</button>
                 </div>
             </div>
             <div class="md:col-span-2 row-span-4 relative  md:w-full ">
                 <img src="assets/deal-zabo.png" alt="Deal bloom" class="w-full rounded-xl ">
 
-                <div class="absolute inset-0 flex flex-col items-center justify-center  text-white  font-bold">
+                <div class="absolute inset-0 flex flex-col  justify-center  text-white  font-bold">
                     <p>60% Off | Bloom Plant</p>
-                    <button> Shop Now</button>
+                    <button class="md:text-3xl underline"> Shop Now</button>
                 </div>
             </div>
-            <div class="md:row-span-2 relative md:w-full bor ">
+            <div class="md:row-span-2 relative md:w-full  ">
                 <img src="assets/deal-ana.png" alt="Deal bloom" class="w-full rounded-xl">
 
-                <div class="absolute inset-0 flex flex-col items-center justify-center  text-white  font-bold">
+                <div class="absolute inset-0 flex flex-col  justify-center  text-white  font-bold">
                     <p>60% Off | Bloom Plant</p>
-                    <button> Shop Now</button>
+                    <button class="md:text-3xl underline"> Shop Now</button>
                 </div>
             </div>
 
         </div>
 
     </section>
+    <!-- join Section -->
+    <section class=" relative text-center  w-full mt-20 ">
+        <div>
+            <img class="w-full" src="assets/news-letter-bg.png" alt="">
+        </div>
 
-    
+        <div class="absolute inset-0 flex flex-col justify-center ">
+            <h1 class="text-3xl text-white font-bold">Join the colorful Bunch</h1>
+            <div class="flex gap-0 justify-center ">
+                <input class="bg-white w-1/2 h-10 p-4" type="email" name="" id="" placeholder="Write email">
+                <button class="bg-orange-500 text-white w-1/5 h-10 ">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+
 </body>
 
 </html>
